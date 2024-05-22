@@ -10,6 +10,7 @@ namespace SistemaFinanceiro.Model
     {
         private long _numero;
         private decimal _saldo;
+        public Agencia agencia;
 
         public Conta(long numero)
         {
@@ -18,10 +19,15 @@ namespace SistemaFinanceiro.Model
 
         public Conta(long numero, decimal saldo)
         {
+            if (saldo <= 10.00m)
+            {
+                throw new ArgumentException("O saldo inicial deve ser superior a R$10,00.");
+            }
+            {
             _numero += numero;
             _saldo = saldo;
+            }
         }
-
 
         public long Numero
         {
@@ -35,14 +41,22 @@ namespace SistemaFinanceiro.Model
 
         public void Deposito(decimal valor)
         {
-            _saldo += valor; 
+            if (valor > 0)
+            {
+                _saldo += valor;
+            }
         }
-
-        public void Saque(decimal valor)
+        public decimal Saque(decimal valor)
         {
-            _saldo -= valor;
+            if (_saldo >= valor)
+            {
+                _saldo -= valor;
+                return _saldo;
+            }
+            else
+            {
+                throw new ArgumentException("Valor do saque ultrapassa saldo");
+            }
         }
-
-
     }
 }

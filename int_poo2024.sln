@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xd", "xd\xd.csproj", "{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFinanceiro", "SistemaFinanceiro\SistemaFinanceiro.csproj", "{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFinanceiroTeste", "SistemaFinanceiro\SistemaFinanceiroTeste.csproj", "{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
