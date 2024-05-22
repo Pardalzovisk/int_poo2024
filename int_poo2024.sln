@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xd", "xd\xd.csproj", "{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xd", "xd\xd.csproj", "{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFinanceiro", "SistemaFinanceiro\SistemaFinanceiro.csproj", "{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B69DEB23-FBE4-44D9-8EBC-9096EC2E998C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D24E85F-DC85-4E1B-BF6C-8301AC7A5ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

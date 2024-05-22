@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using xd.Model;
+using SistemaFinanceiro.Model;
 
-var conta1 = new Conta();
+var conta1 = new Conta(123);
+Console.WriteLine($"Conta:{conta1.Numero}");
