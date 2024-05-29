@@ -9,16 +9,17 @@ namespace SistemaFinanceiro
 {
     public class Agencia
     {
-        private int _numero;
-        private string _nome, _telefone;
+        public int Numero { get; set; }
+        public string Cep { get; set; }
+        public string Telefone { get; set; }
+        public Banco Banco { get; set; }
 
-        public Agencia(int numero)
+        public Agencia(int numero, string cep, string telefone, Banco banco)
         {
-            _numero = numero;
+            Numero = numero;
+            Cep = cep;
+            Telefone = telefone;
+            Banco = banco;
         }
-
-        public int Numero { get => _numero; }
-        public string Nome { get => _nome;}
-        public string Telefone { get => _telefone; set { _telefone = value; } }
     }
 }
